@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/calculator.png">
+  <title>Age calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="background">
+      <div class="info">
+        <div class="labels">
+          <li id="day" class="label">DAY</li>
+          <li id="month" class="label">MONTH</li>
+          <li id="year" class="label">YEAR</li>
+        </div>
+        <div class="inputs">
+          <input type="text" maxlength="2" name="dia" class="data" id="dia" placeholder="DD">
+          <input type="text" maxlength="2" name="mes" class="data" id="mes"placeholder="MM">
+          <input type="text" maxlength="4" name="ano" class="data" id="ano" placeholder="YYYY">
+        </div>
+        <span id="errorDay"></span>
+        <span id="errorMonth"></span>
+        <span id="errorYear"></span>
+      </div>
+      <div class="line"></div>
+      <div class="radio">
+        <button type="button" onclick="data()" class="button" name="botao">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+        </button>
+      </div>
+      <div class="title">
+        <h1 id ="titleYear">years</h1>
+        <h1 id="titleMonth">months</h1>
+        <h1 id="titleDay">days</h1>
+      </div>
+        <div class="years">
+          <div class="line_1"></div>
+          <div class="line_2"></div>
+        </div>
+        <div class="years_2">
+          <div class="line_1"></div>
+          <div class="line_2"></div>
+        </div>
+        <div class="years_3">
+          <div class="line_1"></div>
+          <div class="line_2"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

@@ -1,0 +1,245 @@
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.background{
+    background-color:  hsl(0, 0%, 100%);
+    width: 540px;
+    height: 400px;
+    border-radius: 5% 5% 28%;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: 150px;
+    line-height: 25px;
+}
+.inputs{
+    margin-left: 40px;
+}
+.data{
+    width: 90px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    border: solid hsl(0, 0%, 86%) 1px;
+    border-radius: 8%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.line{
+    width: 400px;
+    height: 1px;
+    background-color: hsl(0, 0%, 94%);
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    margin-left: 450px;
+    border-radius: 50%;
+    margin-top: -45px;
+    border: solid hsl(259, 100%, 65%);
+    background-color: hsl(259, 100%, 65%);
+}
+.label{
+    display: inline-block;   
+}
+.labels{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: hsl(0, 1%, 44%);
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#month{
+    margin-left: 98px;
+}
+#year{
+    margin-left: 78px;
+}
+.info{
+    margin-top: -15px;
+}
+.years{
+    margin-left: 60px;
+    margin-top: -180px;
+}
+.years_2{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.years_3{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.line_1{
+    width: 30px;
+    height: 10px;
+    background-color: hsl(259, 100%, 65%);
+}
+.line_2{
+    width: 30px;
+    height: 10px;
+    background-color: hsl(259, 100%, 65%);
+    margin-left: 45px;
+    margin-top: -10px;
+}
+#errorDay{
+    margin-left: 62px;
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+#errorMonth{
+    margin-left: 45px;
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+#errorYear{
+    margin-left: 30px;
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+.contain{
+    margin-top: -420px;
+    padding: 200px;
+    margin-left: -150px;
+    font-size: 55px;
+    letter-spacing: 8px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: hsl(259, 100%, 65%);
+}
+
+button:hover{
+    background-color: black;
+    border:black; 
+}
+.info:hover{
+    color: blueviolet;
+}
+input:hover{
+    border-color: hsl(259, 100%, 65%);
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+@media (max-width:571px){
+    .background{
+        background-color:  hsl(0, 0%, 100%);
+        width: 340px;
+        height: 400px;
+        border-radius: 5% 5% 28%;
+    }
+    .inputs{
+        margin-left: 12px;
+    }
+    .data{
+        width: 70px;
+        height: 40px;
+        font-family: 'Poppins', sans-serif;
+        border: solid hsl(0, 0%, 86%) 1px;
+        border-radius: 8%;
+        margin-left: 20px;
+        font-size: 20px;
+    
+    }
+    .line{
+        width: 270px;
+        height: 1px;
+        background-color: hsl(0, 0%, 94%);
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+    .labels{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        color: hsl(0, 1%, 44%);
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    .label{
+        display: inline-block;
+    }
+    #month{
+        margin-left: 70px;
+    }
+    #year{
+        margin-left: 50px;
+    }
+    .button{
+        width: 60px;
+        height: 60px;
+        margin-left: 140px;
+        border-radius: 50%;
+        margin-top: -30px;
+        border: solid hsl(259, 100%, 65%);
+        background-color: hsl(259, 100%, 65%);
+    }
+    .years{
+        margin-left: 38px;
+        margin-top: -140px;
+    }
+    .years_2{
+        margin-left: 38px;
+        margin-top: 40px;
+    }
+    .years_3{
+        margin-left: 38px;
+        margin-top: 40px;
+    }
+    .title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+        font-weight: 800;
+        font-style: italic;
+        margin-left: 120px;
+        line-height: 20px;
+    }
+    .contain{
+        margin-top: -300px;
+        padding: 138px;
+        margin-left: -90px;
+        font-size: 45px;
+        letter-spacing: 8px;
+        font-weight: 800;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        color: hsl(259, 100%, 65%);
+    }
+    #errorDay{
+        margin-left: 35px;
+        color: hsl(0, 100%, 67%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+    }
+    #errorMonth{
+        margin-left: 20px;
+        color: hsl(0, 100%, 67%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+    }
+    #errorYear{
+        margin-left: 12px;
+        color: hsl(0, 100%, 67%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+    }
+
+}
+
+
+
+    
